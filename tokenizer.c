@@ -30,7 +30,7 @@ char *strtok_t(char *str, int (*test)(int ch)){
     } else {
         *word++ = '\0';
     }
-    return token;//Return the words that was found
+    return token;//Return the memory indexes of where the word was found
 }
 
 int main(void){
